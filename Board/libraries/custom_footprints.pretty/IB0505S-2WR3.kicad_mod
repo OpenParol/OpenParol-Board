@@ -1,0 +1,230 @@
+(footprint "IB0505S-2WR3"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "IB0505S-2")
+	(tags "Power Supply")
+	(property "Reference" "PS**"
+		(at 7.55 1.6 0)
+		(layer "F.SilkS")
+		(uuid "7e2b8faf-89dd-40bb-96fa-a79231e66175")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "IB0505S-2WR3"
+		(at 7.55 1.6 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "bd7df21d-ea89-4aea-9f65-973a14b65258")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "69a5584e-3c61-4460-92b1-852f77dacf90")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c0f26517-d7c5-434b-86f1-b6eb61f993d0")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -2.1 -1.4)
+		(end -2.1 4.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ed5646c4-f711-43ee-b004-41b1310aa86d")
+	)
+	(fp_line
+		(start -2.1 4.6)
+		(end 17.2 4.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ac677385-cf88-4638-bbdb-e296c785a789")
+	)
+	(fp_line
+		(start 17.2 -1.4)
+		(end -2.1 -1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "53396e68-ed2a-49a7-8cae-7d0373a0cd1c")
+	)
+	(fp_line
+		(start 17.2 4.6)
+		(end 17.2 -1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e26750ff-8a80-4d52-8baf-1ee6987f15d6")
+	)
+	(fp_line
+		(start -2.6 -1.9)
+		(end -2.6 5.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "88d30042-be6d-478e-b15d-e0db015fead8")
+	)
+	(fp_line
+		(start -2.6 5.1)
+		(end 17.7 5.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "98e803a4-cd78-4c3e-abae-8c21f294c3f3")
+	)
+	(fp_line
+		(start 17.7 -1.9)
+		(end -2.6 -1.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c822060c-d92d-422e-a8cb-0e2782b44eee")
+	)
+	(fp_line
+		(start 17.7 5.1)
+		(end 17.7 -1.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "945d07d4-5e5d-4f02-a48a-b6349bdbb809")
+	)
+	(fp_line
+		(start -2.1 -1.4)
+		(end -2.1 4.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "177130ca-f48b-46cb-9819-2d030ed63e9f")
+	)
+	(fp_line
+		(start -2.1 4.6)
+		(end 17.2 4.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "be82e043-1ea3-4e2e-842e-a838e2c0a08b")
+	)
+	(fp_line
+		(start 17.2 -1.4)
+		(end -2.1 -1.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4a381e51-bb71-4e16-acf2-f705a6ae6bbf")
+	)
+	(fp_line
+		(start 17.2 4.6)
+		(end 17.2 -1.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "105c0d41-fa40-49c5-948e-c09d395fb1a0")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 7.55 1.6 0)
+		(layer "F.Fab")
+		(uuid "ebe2f6ac-f49d-4c89-a9ca-df057f396919")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.217 1.217)
+		(drill 0.71)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f6c8492a-a0a0-4242-a24c-20ed7f9c1c13")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 0)
+		(size 1.217 1.217)
+		(drill 0.71)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1e5ca2e5-da16-498f-bfda-1a8fc96a3c21")
+	)
+	(pad "3" thru_hole circle
+		(at 7.62 0)
+		(size 1.217 1.217)
+		(drill 0.71)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "533d563f-a156-47da-b761-aaabd9eaabb8")
+	)
+	(pad "4" thru_hole circle
+		(at 12.7 0)
+		(size 1.217 1.217)
+		(drill 0.71)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5e605233-676b-418b-96d4-29e9b8365d7a")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3dmodels/IB0505S.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,230 @@
+(footprint "IB2424S-2WR3"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "IB0505S-2")
+	(tags "Power Supply")
+	(property "Reference" "PS**"
+		(at 7.55 1.6 0)
+		(layer "F.SilkS")
+		(uuid "8b7e9001-63fa-41aa-b2fa-6ce307ee45cc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "IB2424S-2WR3"
+		(at 7.55 1.6 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "12586dc8-c65f-4d22-9486-e1a77cffdc11")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bb894266-c1e8-4376-b14a-e9796ead0ffb")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e83405ae-1b39-4f8f-8a6c-435346980792")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -2.1 -1.4)
+		(end -2.1 4.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9f64c08e-2590-465e-abd3-71b4ba887c4e")
+	)
+	(fp_line
+		(start -2.1 4.6)
+		(end 17.2 4.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b38ffd87-fc36-43a9-abdc-9557a0e2deed")
+	)
+	(fp_line
+		(start 17.2 -1.4)
+		(end -2.1 -1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2a51229f-88b6-4c1b-a857-a4e24813bb66")
+	)
+	(fp_line
+		(start 17.2 4.6)
+		(end 17.2 -1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d5cc1d0f-8e6c-4f3e-8283-534fe8d97958")
+	)
+	(fp_line
+		(start -2.6 -1.9)
+		(end -2.6 5.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f311e416-f2e7-4c7a-a405-ab6c9e4b4138")
+	)
+	(fp_line
+		(start -2.6 5.1)
+		(end 17.7 5.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3cf33e0b-b414-40f8-9211-b4ade0d5012e")
+	)
+	(fp_line
+		(start 17.7 -1.9)
+		(end -2.6 -1.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "aa2ac288-5412-4ea8-ad05-26ef63978765")
+	)
+	(fp_line
+		(start 17.7 5.1)
+		(end 17.7 -1.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4658e0c1-15b8-4854-a9ee-cc0068abf3ff")
+	)
+	(fp_line
+		(start -2.1 -1.4)
+		(end -2.1 4.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "de74ba71-343b-48c5-b0ba-1bfb052192e0")
+	)
+	(fp_line
+		(start -2.1 4.6)
+		(end 17.2 4.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "23e291ac-123b-4312-bb3a-73443e85a3f2")
+	)
+	(fp_line
+		(start 17.2 -1.4)
+		(end -2.1 -1.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1d0b2b71-040f-403c-bd32-d7ff23d1b91c")
+	)
+	(fp_line
+		(start 17.2 4.6)
+		(end 17.2 -1.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8fb21b6d-89f2-484d-989f-74523299eb47")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 7.55 1.6 0)
+		(layer "F.Fab")
+		(uuid "fc95cc59-9589-4da1-8b00-f9354b83cd80")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.217 1.217)
+		(drill 0.71)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "33c20351-53e2-45f0-9611-fd45cdd274a9")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 0)
+		(size 1.217 1.217)
+		(drill 0.71)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ec4121f8-40c2-4148-85f7-07a4da76f581")
+	)
+	(pad "3" thru_hole circle
+		(at 7.62 0)
+		(size 1.217 1.217)
+		(drill 0.71)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "48b95128-4266-44a9-9d6a-fca791dd7513")
+	)
+	(pad "4" thru_hole circle
+		(at 12.7 0)
+		(size 1.217 1.217)
+		(drill 0.71)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4dd31c5a-df56-4a35-980b-7d7664252f44")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3dmodels/IB2424S.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
