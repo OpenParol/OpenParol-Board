@@ -14659,17 +14659,6 @@
 		)
 		(uuid "7dd512ef-fe67-4d17-8efb-3bb62667184f")
 	)
-	(text "TODO: Poprawić rezystor i diodę na 20mA"
-		(exclude_from_sim no)
-		(at 481.076 183.642 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 194 0 0 1)
-			)
-		)
-		(uuid "8b50ce30-eb0c-4093-ab0d-06079f439a40")
-	)
 	(text "POWER"
 		(exclude_from_sim no)
 		(at 167.132 31.496 0)
@@ -16349,7 +16338,7 @@
 	)
 	(wire
 		(pts
-			(xy 595.63 196.85) (xy 595.63 198.12)
+			(xy 598.17 196.85) (xy 598.17 198.12)
 		)
 		(stroke
 			(width 0)
@@ -25609,7 +25598,7 @@
 	)
 	(wire
 		(pts
-			(xy 584.2 196.85) (xy 565.15 196.85)
+			(xy 586.74 196.85) (xy 565.15 196.85)
 		)
 		(stroke
 			(width 0)
@@ -26579,7 +26568,7 @@
 	)
 	(wire
 		(pts
-			(xy 591.82 196.85) (xy 595.63 196.85)
+			(xy 594.36 196.85) (xy 598.17 196.85)
 		)
 		(stroke
 			(width 0)
@@ -27116,6 +27105,18 @@
 			(justify right bottom)
 		)
 		(uuid "0e059e1a-cce3-4f12-9b81-90d45ac303e7")
+		(property "Comments" "INT"
+			(at 583.184 101.854 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
 	)
 	(label "USER_IN2"
 		(at 786.13 415.29 180)
@@ -27216,6 +27217,18 @@
 			(justify left bottom)
 		)
 		(uuid "15a66ded-681f-4da6-800d-6196b55296a1")
+		(property "Comments" "INT"
+			(at 499.618 145.034 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(label "TMC6_STP"
 		(at 580.39 212.09 180)
@@ -27776,6 +27789,18 @@
 			(justify right bottom)
 		)
 		(uuid "4e853518-744c-469b-bcf6-dbc4a1a328ec")
+		(property "Comments" "INT"
+			(at 583.184 104.394 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
 	)
 	(label "TMC5_DIAG1"
 		(at 504.19 153.67 0)
@@ -27786,6 +27811,18 @@
 			(justify left bottom)
 		)
 		(uuid "4f99e679-33ea-44aa-a7a0-2cb1a4bd7cb1")
+		(property "Comments" "INT"
+			(at 499.618 152.654 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(label "TMC6_CS"
 		(at 297.18 309.88 0)
@@ -27976,6 +28013,18 @@
 			(justify left bottom)
 		)
 		(uuid "5f04cd5e-5f3d-4bc8-8fa9-255b97576461")
+		(property "Comments" "INT"
+			(at 499.618 185.674 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(label "TMC2_STP"
 		(at 579.12 158.75 180)
@@ -28046,6 +28095,18 @@
 			(justify right bottom)
 		)
 		(uuid "68dc4a8e-1bc1-46b8-af66-cd6a2d4516ef")
+		(property "Comments" "INT"
+			(at 583.184 175.514 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
 	)
 	(label "SPI1_MOSI"
 		(at 579.12 113.03 180)
@@ -28116,6 +28177,18 @@
 			(justify right bottom)
 		)
 		(uuid "6dcbd310-f92d-4fc1-9c2e-9db4de6ae861")
+		(property "Comments" "INT"
+			(at 584.454 195.834 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
 	)
 	(label "MOT5_B2"
 		(at 262.89 312.42 180)
@@ -28276,6 +28349,18 @@
 			(justify right bottom)
 		)
 		(uuid "7a0ebaa1-9097-4213-8ee6-ad639416f756")
+		(property "Comments" "INT"
+			(at 583.184 142.494 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
 	)
 	(label "USBCC2"
 		(at 665.48 76.2 0)
@@ -28406,6 +28491,18 @@
 			(justify right bottom)
 		)
 		(uuid "857d3f13-9521-4921-bd29-f26cb7fa1013")
+		(property "Comments" "INT"
+			(at 584.454 198.374 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
 	)
 	(label "SPI1_MISO"
 		(at 109.22 262.89 0)
@@ -28596,6 +28693,18 @@
 			(justify left bottom)
 		)
 		(uuid "93a7221a-f1d2-48be-a2c5-4d1a65fe1aca")
+		(property "Comments" "INT"
+			(at 499.618 183.134 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(label "CAN1-"
 		(at 229.87 401.32 180)
@@ -28636,6 +28745,18 @@
 			(justify left bottom)
 		)
 		(uuid "95a82672-84ea-4ee6-8b87-61e6d6f2dab4")
+		(property "Comments" "INT"
+			(at 499.618 155.194 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(label "TMC_EN"
 		(at 109.22 252.73 0)
@@ -28716,6 +28837,18 @@
 			(justify left bottom)
 		)
 		(uuid "9a886a66-a3fc-4679-b39f-c334b73b683b")
+		(property "Comments" "INT"
+			(at 499.618 157.734 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(label "HSE_IN"
 		(at 445.77 132.08 0)
@@ -29266,6 +29399,18 @@
 			(justify left bottom)
 		)
 		(uuid "c4a1a300-cc43-4bad-a8c9-f2d149d52825")
+		(property "Comments" "INT"
+			(at 499.618 150.114 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(label "TMC_EN"
 		(at 109.22 302.26 0)
@@ -29446,6 +29591,18 @@
 			(justify right bottom)
 		)
 		(uuid "d58f16db-ea4c-4d44-9a53-5415dab9b151")
+		(property "Comments" "INT"
+			(at 584.454 193.294 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
 	)
 	(label "MOT2_B2"
 		(at 82.55 265.43 180)
@@ -29466,6 +29623,18 @@
 			(justify right bottom)
 		)
 		(uuid "d5c8ba7c-f82a-44c6-b06a-40ed14524b90")
+		(property "Comments" "INT"
+			(at 583.184 137.414 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
 	)
 	(label "USB_D-"
 		(at 579.12 123.19 180)
@@ -29736,6 +29905,18 @@
 			(justify left bottom)
 		)
 		(uuid "f5246a91-fbf9-493c-acc5-00e5c530ef78")
+		(property "Comments" "INT"
+			(at 499.618 147.574 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(label "SPI1_SCK"
 		(at 109.22 307.34 0)
@@ -29756,6 +29937,18 @@
 			(justify right bottom)
 		)
 		(uuid "f628fc1c-0188-4307-a05a-30eafb2e22fe")
+		(property "Comments" "INT"
+			(at 583.184 139.954 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
 	)
 	(label "TMC4_DIR"
 		(at 109.22 320.04 0)
@@ -36321,7 +36514,7 @@
 				)
 			)
 		)
-		(property "MPN" "SMLEN3BC8TT86"
+		(property "MPN" "VAOL-S6SB4"
 			(at 444.5 187.96 90)
 			(hide yes)
 			(show_name no)
@@ -49017,7 +49210,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 588.01 196.85 270)
+		(at 590.55 196.85 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -49028,7 +49221,7 @@
 		(dnp no)
 		(uuid "806eb2ea-979e-4702-9c9e-c5179cb70b71")
 		(property "Reference" "R17"
-			(at 589.915 192.4051 90)
+			(at 592.455 192.4051 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -49039,7 +49232,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 589.788 194.31 90)
+			(at 592.328 194.31 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -49050,7 +49243,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 588.01 198.628 90)
+			(at 590.55 198.628 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49061,7 +49254,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 588.01 196.85 0)
+			(at 590.55 196.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49072,7 +49265,7 @@
 			)
 		)
 		(property "Description" "RES 10k"
-			(at 588.01 196.85 0)
+			(at 590.55 196.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49083,7 +49276,7 @@
 			)
 		)
 		(property "MPN" "CRCW060310K0FKEAHP"
-			(at 588.01 196.85 0)
+			(at 590.55 196.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -59658,7 +59851,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 595.63 198.12 0)
+		(at 598.17 198.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -59668,7 +59861,7 @@
 		(dnp no)
 		(uuid "ceefdcfb-3282-4f50-a95d-7f36aa2241a6")
 		(property "Reference" "#PWR0101"
-			(at 595.63 204.47 0)
+			(at 598.17 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -59679,7 +59872,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 595.63 201.93 0)
+			(at 598.17 201.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -59689,7 +59882,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 595.63 198.12 0)
+			(at 598.17 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -59700,7 +59893,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 595.63 198.12 0)
+			(at 598.17 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -59711,7 +59904,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 595.63 198.12 0)
+			(at 598.17 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
