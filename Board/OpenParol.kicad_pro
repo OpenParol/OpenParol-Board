@@ -649,10 +649,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "./",
-      "plot": "Production Files/",
+      "plot": "Gerber",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "OpenParol.step",
       "svg": "",
       "vrml": ""
     },

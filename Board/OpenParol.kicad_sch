@@ -30093,18 +30093,18 @@
 		)
 		(uuid "4d3cc97b-7cb6-4407-b34a-81dfb81a7d06")
 		(property "Netclass" "CAN"
-			(at 267.3985 516.89 0)
+			(at 266.0015 516.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Component Class" ""
-			(at 93.98 58.42 0)
+			(at 439.42 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30112,6 +30112,7 @@
 					(size 1.27 1.27)
 					(italic yes)
 				)
+				(justify left)
 			)
 		)
 	)
@@ -30198,18 +30199,18 @@
 		)
 		(uuid "a8046a1e-07af-4864-a2c6-eb4d07f67841")
 		(property "Netclass" "CAN"
-			(at 130.2385 516.89 0)
+			(at 128.8415 516.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Component Class" ""
-			(at -43.18 58.42 0)
+			(at 302.26 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30217,6 +30218,7 @@
 					(size 1.27 1.27)
 					(italic yes)
 				)
+				(justify left)
 			)
 		)
 	)
@@ -30233,18 +30235,18 @@
 		)
 		(uuid "cb983e79-f6ce-458d-a586-dfe0750b5204")
 		(property "Netclass" "CAN"
-			(at 267.3985 478.79 0)
+			(at 266.0015 478.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Component Class" ""
-			(at 93.98 25.4 0)
+			(at 439.42 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30252,6 +30254,7 @@
 					(size 1.27 1.27)
 					(italic yes)
 				)
+				(justify left)
 			)
 		)
 	)
@@ -30268,18 +30271,18 @@
 		)
 		(uuid "e3377007-2c01-4b61-9d3a-5e65e3c46f76")
 		(property "Netclass" "CAN"
-			(at 130.2385 478.79 0)
+			(at 128.8415 478.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Component Class" ""
-			(at -43.18 25.4 0)
+			(at 302.26 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30287,6 +30290,7 @@
 					(size 1.27 1.27)
 					(italic yes)
 				)
+				(justify left)
 			)
 		)
 	)
@@ -31194,6 +31198,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -32077,6 +32082,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -33059,6 +33065,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -33901,6 +33908,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -35894,6 +35902,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -36532,6 +36541,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -36645,6 +36655,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -38990,6 +39001,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -39350,6 +39362,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -40364,6 +40377,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -41743,6 +41757,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -42194,6 +42209,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -43861,6 +43877,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -48392,6 +48409,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -53591,6 +53609,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -53909,6 +53928,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -59754,6 +59774,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -60855,6 +60876,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -61119,6 +61141,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -63470,6 +63493,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -64408,6 +64432,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
@@ -65677,6 +65702,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
