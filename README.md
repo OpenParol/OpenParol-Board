@@ -1,12 +1,20 @@
-# OpenParol Control Board
+# OpenParol Control board
 
-OpenParol-Board is an open-source controller for a 6-DOF robotic arm. It features six TMC5160T Pro drivers and a section containing two galvanically isolated CAN-FD buses, which can be used for communication with external (or future) modules and controllers. It also includes an isolated I/O section for connecting limit switches (both mechanical and NPN inductive types), as well as two galvanically isolated outputs and inputs (one of which supports an MCU interrupt).
+OpenParol-board is an open-source controller for a 6-DOF robotic arm. It features six TMC5160T Pro drivers and a section containing two galvanically isolated CAN-FD buses, which can be used for communication with external (or future) modules and controllers. It also includes an isolated I/O section for connecting limit switches (both mechanical and NPN inductive types), as well as two galvanically isolated outputs and inputs (one of which supports an MCU interrupt).
 
 > [!IMPORTANT]
 > This is merely a hobby project; under no circumstances is it a professional project intended for industrial use!
 
 > [!IMPORTANT]
 > The current design is a development version and has not yet been tested. It is therefore best to wait for the official release.
+
+<div align="center">
+  <span style="display: inline-block; font-size: 1.25em; font-weight: 600; letter-spacing: 0.7px; margin-bottom: 20px;">Sponsors</span>
+  <p>
+    <img src="assets/aisler_logo.svg" alt="Aisler Logo" height="50">
+  </p>
+  <span style="display: inline-block; margin-top: 10px;">Thank you for helping to develop this project!</span>
+</div>
 
 ---
 <br>
@@ -51,8 +59,8 @@ When modifying the design:
 6. Export manufacturing files only from a tagged or otherwise clearly
    identified revision.
 
-Custom symbols and footprints are stored in `Board/libraries/`. Their library
-paths are configured by `Board/sym-lib-table` and `Board/fp-lib-table`; avoid
+Custom symbols and footprints are stored in `board/libraries/`. Their library
+paths are configured by `board/sym-lib-table` and `board/fp-lib-table`; avoid
 moving these files without updating the corresponding KiCad configuration.
 
 ## Contributing
